@@ -47,7 +47,8 @@ def main_scene():
             aioe3015.show_text((0, 4), "OK:Add Alarm")
         
         # 按键处理
-        if aioe3015.keyval_changed:
+        
+        if aioe3015.keyval_changed and on_function_call == False:
             if aioe3015.keyval == aioe3015.KEY1:  # 时间设置
                 time_setting_scene()
                 aioe3015.clear_screen()
