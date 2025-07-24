@@ -1,0 +1,15 @@
+{
+    "Main_board": "AIOE1101",
+    "uarts": [
+        {
+            "baudrate": 19200,
+            "model_name": "AIOE3015",
+            "port": 1
+        },
+        {
+            "baudrate": 19200,
+            "model_name": "AIOE6001",
+            "port": 4
+        }
+    ]
+}
